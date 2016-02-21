@@ -1,6 +1,6 @@
 module CcURL [system] {
     header "/usr/include/curl/curl.h"
-    header "/usr/include/curl/cURLSwift.h"
+    header "./cURLSwift.h"
     link "curl"
     export *
 }
